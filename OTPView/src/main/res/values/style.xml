@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize primary colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+
+        <!-- Customize secondary colors -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+
+        <!-- Customize background and surface colors -->
+        <item name="colorOnBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+
+        <!-- Customize typography -->
+        <item name="textAppearanceHeadline1">@style/CustomHeadline1</item>
+        <item name="textAppearanceBody1">@style/CustomBody1</item>
+    </style>
+
+    <style name="CustomHeadline1" parent="TextAppearance.Material3.HeadlineSmall">
+
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="CustomBody1" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+
+    <style name="OtpWidget.OtpView" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+
+
+
+</resources>
