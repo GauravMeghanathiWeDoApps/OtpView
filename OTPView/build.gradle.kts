@@ -1,3 +1,6 @@
+import org.gradle.kotlin.dsl.from
+import kotlin.text.set
+
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
@@ -33,15 +36,26 @@ android {
     }
 }
 
-publishing{
-    publications{
-        register<MavenPublication>("Gaurav") {
+publishing {
+    publications {
+        register<MavenPublication>("release") {
             groupId = "com.mg"
             artifactId = "otpview"
-            version = "1.0"
-            afterEvaluate {
+            version = "1.0.0"
+            afterEvaluate{
                 from(components["release"])
             }
+        }
+    }
+}
+
+repositories {
+    maven {
+        name = "GithubPackages"
+        url = uri("https://maven.pkg.github.com/GauravMeghanathiWeDoApps/OtpView")
+        credentials {
+            username = "GauravMeghanathiWeDoApps"
+            password = "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"
         }
     }
 }
@@ -55,3 +69,4 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
+
