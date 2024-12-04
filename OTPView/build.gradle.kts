@@ -49,16 +49,6 @@ publishing {
     }
 }
 
-repositories {
-    maven {
-        name = "GithubPackages"
-        url = uri("https://maven.pkg.github.com/GauravMeghanathiWeDoApps/OtpView")
-        credentials {
-            username = "GauravMeghanathiWeDoApps"
-            password = "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"
-        }
-    }
-}
 
 dependencies {
 
