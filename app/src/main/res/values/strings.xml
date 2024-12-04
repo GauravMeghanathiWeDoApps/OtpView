@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">OtpView Example</string>
+    <string name="verifyotp">Verify OTP</string>
+    <string name="otp_is">OTP IS</string>
 </resources>
