@@ -305,13 +305,16 @@ Return otp box value in a String
 # otpView.clearOTP()
 Clear otp Box if it is fill.
 
-![image](https://github.com/user-attachments/assets/20cb0059-0191-48bc-8da9-23b44c5747a0)   
-![image](https://github.com/user-attachments/assets/ffa74510-f8f9-4f31-8e63-1d725a8a97fa)
-![image](https://github.com/user-attachments/assets/3f97f616-b99c-495a-8d1d-23e0c9cf9a8b)
-![image](https://github.com/user-attachments/assets/3fa97335-e471-434e-a766-f8a29be0d393)
-![image](https://github.com/user-attachments/assets/01698752-bcfa-4959-8206-16fc6612c9cd)
-![image](https://github.com/user-attachments/assets/30a5619c-89b0-4f93-8db6-14e4267d075d)
+## Video
+https://github.com/user-attachments/assets/0e236ce7-577a-45fb-b465-2ff33dadd127
 
+## Images
+![1](https://github.com/user-attachments/assets/c4e2b931-aba4-4d16-a3a7-f00ddcc22418)
+![2](https://github.com/user-attachments/assets/6262627b-cdc4-479f-a52e-6cbcec934058)
+![3](https://github.com/user-attachments/assets/a0eeab70-c36d-4cee-b133-9b99690154b7)
+![4](https://github.com/user-attachments/assets/b33109aa-f992-4ae7-9c1f-3bbecfd58a20)
+![5](https://github.com/user-attachments/assets/7d86c61a-98f6-4c5a-b8a4-a5bd387b7b3f)
+![6](https://github.com/user-attachments/assets/075a5317-4c03-44a7-bbef-b7ed01ed33a0)
 
 ## Author
 GAURAV MEGHANATHI
