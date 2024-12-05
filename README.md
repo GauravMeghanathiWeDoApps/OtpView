@@ -305,7 +305,7 @@ Return otp box value in a String
 # otpView.clearOTP()
 Clear otp Box if it is fill.
 
-![image](https://github.com/user-attachments/assets/20cb0059-0191-48bc-8da9-23b44c5747a0)
+![image](https://github.com/user-attachments/assets/20cb0059-0191-48bc-8da9-23b44c5747a0)   
 ![image](https://github.com/user-attachments/assets/ffa74510-f8f9-4f31-8e63-1d725a8a97fa)
 ![image](https://github.com/user-attachments/assets/3f97f616-b99c-495a-8d1d-23e0c9cf9a8b)
 ![image](https://github.com/user-attachments/assets/3fa97335-e471-434e-a766-f8a29be0d393)
