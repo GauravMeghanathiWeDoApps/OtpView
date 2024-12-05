@@ -7,7 +7,7 @@ Below is a detailed list of attributes supported by the custom OTP view.
 ## Table of contents
 - [Installation](#installation).
 - [Usage](#usage).
-- [Contributing](#contributing).
+- [Author](#author).
 - [License](#license).
 
 1. Box Configuration
@@ -42,11 +42,11 @@ Below is a detailed list of attributes supported by the custom OTP view.
 
   | Attribute    |  Format    | Description | Example |
   | :---:   | :---: | :---: | :---:|
-  | app:boxCornerRadiusAll | dimension    | Uniform corner radius for all corners. | 8dp |
-  | app:boxCornerRadiusTopLeft  | dimension  | dimension	Corner radius for the top-left corner.  | 6dp |
-  | app:boxCornerRadiusTopRight  | dimension  | dimension	Corner radius for the top-Right corner.  | 6dp |
-  | app:boxCornerRadiusBottomLeft  | dimension  | dimension	Corner radius for the bottom-left corner.  | 6dp |
-  | app:boxCornerRadiusBottomRight  | dimension  | dimension	Corner radius for the bottm-right corner.  | 6dp |
+  | app:boxCornerRadiusAll | dimension    | Uniform corner radius for all corners (if user will use this property for cornerRadius bellow cornerRadius property over ride with it). | 8dp |
+  | app:boxCornerRadiusTopLeft  | dimension  | dimension  Corner radius for the top-left corner.  | 6dp |
+  | app:boxCornerRadiusTopRight  | dimension  | dimension Corner radius for the top-Right corner.  | 6dp |
+  | app:boxCornerRadiusBottomLeft  | dimension  | dimension Corner radius for the bottom-left corner.  | 6dp |
+  | app:boxCornerRadiusBottomRight  | dimension  | dimension Corner radius for the bottm-right corner.  | 6dp |
 
 5. Input Type
 
@@ -278,8 +278,35 @@ Add the custom view to your XML layout:
       tools:viewBindingIgnore="true" />
 
 
+# Next in your code assign otpView to a variable like your .kts class file
+val otpView = findViewById(R.id.otpView)
 
+implement OnOtpCompletionListener
 
+# otpView.setOTP("123456")
+
+##
+	otpView.setOnCompleteOtpListener{ otp->
+        	txtOtpView.text = buildString {
+                append("OTP is - ")
+                append(otp)
+            	}
+    	}
+
+# otpView.length()
+  Return the otp box length how Many otp box fill it.
+
+# otpView.isOTPFilled  
+Return if The all otp box fill then true other wise it return false. 
+
+# otpView.getOtp()
+Return otp box value in a String
+
+# otpView.clearOTP()
+Clear otp Box if it is fill.
+
+## Author
+GAURAV MEGHANATHI
 
 ## License
 
