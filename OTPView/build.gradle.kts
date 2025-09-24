@@ -34,6 +34,11 @@ android {
             jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
         }
     }
+    java {
+        toolchain {
+            languageVersion.set(JavaLanguageVersion.of(17))
+        }
+    }
     publishing {
         singleVariant("release") {}
     }
