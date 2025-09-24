@@ -1,6 +1,3 @@
-import org.gradle.kotlin.dsl.from
-import kotlin.text.set
-
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
@@ -9,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.mg.otpview"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         minSdk = 26
@@ -28,11 +25,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
-    }
-    kotlinOptions {
-        jvmTarget = "17"
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
 }
 
@@ -41,7 +35,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.mg"
             artifactId = "otpview"
-            version = "1.0.1"
+            version = "1.0.2"
             afterEvaluate{
                 from(components["release"])
             }

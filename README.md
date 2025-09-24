@@ -317,7 +317,8 @@ https://github.com/user-attachments/assets/0e236ce7-577a-45fb-b465-2ff33dadd127
 ![6](https://github.com/user-attachments/assets/075a5317-4c03-44a7-bbef-b7ed01ed33a0)
 
 ## Author
-GAURAV MEGHANATHI
+
+GAURAV MEGHANATHI && Krupal Vekariya
 
 ## License
 
