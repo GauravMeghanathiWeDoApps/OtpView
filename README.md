@@ -85,13 +85,13 @@ Step 1. Replace your Settings.gradles build file to this code
 Step 2. Add your build.gradles(Module:app) build file to this code
 ##
     dependencies {
-          	        implementation 'com.github.GauravMeghanathiWeDoApps:OtpView:1.0.2'
+          	        implementation 'com.github.GauravMeghanathiWeDoApps:OtpView:1.0.3'
       }
 
 for Kts file of build.gradles.kts(Module:app) use this code without libs.versions.toml
 ##
     dependencies {
-          	        implementation("com.github.GauravMeghanathiWeDoApps:OtpView:1.0.2")
+          	        implementation("com.github.GauravMeghanathiWeDoApps:OtpView:1.0.3")
       }
 
 for Kts file of build.gradles.kts(Module:app) use this code with libs.versions.toml
@@ -104,7 +104,7 @@ for Kts file of build.gradles.kts(Module:app) use this code with libs.versions.t
 for libs.versions.toml use this code
 ##
     [versions]
-    otpviewVersion = "1.0.2"
+    otpviewVersion = "1.0.3"
 
     [libraries]
     gauravmeghanathiwedoapps-otpview = { module = "com.github.GauravMeghanathiWeDoApps:OtpView", version.ref = "otpviewVersion" }
